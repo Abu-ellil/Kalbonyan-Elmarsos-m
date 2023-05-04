@@ -10,7 +10,8 @@ let hobbies:string[];
  hobbies=['sports', 'Cooking']
 
 let person:{
-    
+    name:string,
+    age:number
 }
 
 person = {
