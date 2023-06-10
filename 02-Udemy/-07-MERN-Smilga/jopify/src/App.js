@@ -1,9 +1,9 @@
 import Landing from './pages/Landing';
-import './App.css';
 
 function App() {
   return (
     <div>
+      <button>Here We Go</button>
     <h1>jopify</h1>
       <Landing/>
     </div>
