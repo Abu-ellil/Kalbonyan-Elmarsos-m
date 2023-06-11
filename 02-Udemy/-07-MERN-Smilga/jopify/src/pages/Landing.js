@@ -1,5 +1,6 @@
 import logo from '../assets/images/logo.svg'
 import main from '../assets/images/main.svg'
+import '../assets/wrappers/LandingPage.css'
 
 const Landing = () => {
   return (
