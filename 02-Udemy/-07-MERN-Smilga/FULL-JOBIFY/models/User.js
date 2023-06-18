@@ -37,5 +37,8 @@ const UserSchema = new mongoose.Schema({
   }
 });
 
+UserSchema.pre('save',()=>{
+  console.log(this.password);
+})
 
 export default mongoose.model('user', UserSchema)

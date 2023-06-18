@@ -12,6 +12,7 @@ const login =async(req,res)=>{
 }
 const updateUser =async(req,res)=>{
     res.send('update user')
+    
 }
 
 export {register,login,updateUser}
