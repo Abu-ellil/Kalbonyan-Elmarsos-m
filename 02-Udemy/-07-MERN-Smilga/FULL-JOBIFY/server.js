@@ -1,5 +1,6 @@
 import express from 'express'
 const app = express()
+import cors from 'cors'
 import dotenv from 'dotenv'
 dotenv.config()
 
@@ -17,10 +18,11 @@ import jobsRouter from "./routes/jobsRoutes.js";
 import notFoundMiddelware from './not-found.js'
 import errorHandlerMiddelware from './error-handler.js'
 
+app.use(cors())
 app.use(express.json())
 
 app.get('/',(req,res)=>{
-    res.send('welcome')
+    res.json({msg:'welcome'})
 })
 
 app.use('/api/v1/auth',authRouter)

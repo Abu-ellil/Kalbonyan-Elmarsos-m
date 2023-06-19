@@ -1,4 +1,4 @@
-import "../assets/wrappers/ErrorPage.css";
+import "../assets/wrappers/ErrorPage";
 import img from '../assets/images/not-found.svg'
 import { Link } from "react-router-dom";
 
